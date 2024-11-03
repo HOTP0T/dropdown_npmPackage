@@ -1,0 +1,32 @@
+{
+  "name": "@hotp0t/dropdown-package",
+  "version": "1.0.10",
+  "description": "A simple reusable dropdown component for React",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HOTP0T/dropdown_npmPackage.git"
+  },
+  "keywords": [
+    "dropdown",
+    "react",
+    "component"
+  ],
+  "author": "HOTP0T",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/cli": "^7.26.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  }
+}
