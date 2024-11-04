@@ -5,6 +5,10 @@
 
 A customizable and reusable dropdown (select) component for React, published on npm. This component allows you to easily create dropdown menus with custom options, placeholder text, and event handling for selected options.
 
+## Prerequisites
+
+- **React**: Ensure that your project is set up with React (v16.8 or higher) as this component leverages React's functional components and hooks.
+
 ## Installation
 
 Install the package via npm:
